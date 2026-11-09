@@ -1,0 +1,19 @@
+@* Exercício 04 *@
+@page
+@model global::CityManager.Pages.Exercicio04.Exercicio04Model
+<h2>Cadastro de Cidades Turísticas</h2>
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="Input.CityName">Nome da cidade</label>
+        <input asp-for="Input.CityName" class="form-control" />
+        <span asp-validation-for="Input.CityName" class="text-danger"></span>
+    </div>
+    <button class="btn btn-primary" type="submit">Cadastrar Cidade</button>
+</form>
+@if (Model.Message is not null)
+{
+    <h3>@Model.Message</h3>
+}
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

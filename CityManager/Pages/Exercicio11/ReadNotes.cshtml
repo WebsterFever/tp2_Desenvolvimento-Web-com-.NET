@@ -1,0 +1,19 @@
+@* Exercício 11 *@
+@page
+@model global::CityManager.Pages.Exercicio11.Exercicio11Model
+<h2>Minhas Anotações</h2>
+@if (!Model.Files.Any())
+{
+    <p>Nenhuma anotação encontrada.</p>
+}
+<ul>
+    @foreach (var file in Model.Files)
+    {
+        <li><a asp-page="/Exercicio11/ReadNotes" asp-route-fileName="@file">@file</a></li>
+    }
+</ul>
+@if (Model.Content is not null)
+{
+    <h3>@Model.SelectedFile</h3>
+    <pre style="white-space:pre-wrap">@Model.Content</pre>
+}
