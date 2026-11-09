@@ -1,15 +1,7 @@
-# Exercício 06 — Validação de código ISO
+# Exercício 06
 
-Código ISO com duas letras e validação de campos.
+Código-fonte em:
+- [CreateCountryValidation.cshtml](../CityManager/Pages/Exercicio06/CreateCountryValidation.cshtml)
+- [CreateCountryValidation.cshtml.cs](../CityManager/Pages/Exercicio06/CreateCountryValidation.cshtml.cs)
 
-## Arquivos C# / Razor
-
-- [Página Razor](../CityManager/Pages/CityManager/CreateCountry.cshtml)
-- [PageModel C#](../CityManager/Pages/CityManager/CreateCountry.cshtml.cs)
-- [Modelo Country](../CityManager/Models/Country.cs)
-
-## Teste no navegador
-
-`https://localhost:7145/CityManager/CreateCountry`
-
-> Observação: os arquivos originais permanecem em Pages/CityManager para preservar as rotas e a compilação. 
+URL: `https://localhost:7145/Exercicio06/CreateCountryValidation`
