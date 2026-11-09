@@ -1,9 +1,0 @@
-@page
-@model global::CityManager.Pages.CityManager.CityLinksModel
-<h2>Links para cidades</h2>
-<ul>
-    @foreach (var city in Model.Cities)
-    {
-        <li><a asp-page="/CityManager/CityDetails" asp-route-cityName="@city">@city</a></li>
-    }
-</ul>
