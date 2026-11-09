@@ -8,6 +8,24 @@ Abra `CityManager.slnx` no Visual Studio ou execute:
 dotnet run --project CityManager/CityManager.csproj
 ```
 
+
+## Índice numerado para correção
+
+Cada pasta abaixo contém a descrição, os links para os arquivos `.cshtml` / `.cshtml.cs` e a URL para testar. As páginas executáveis continuam em `CityManager/Pages/CityManager` para preservar o roteamento.
+
+- [Exercicio01](Exercicio01/README.md)
+- [Exercicio02](Exercicio02/README.md)
+- [Exercicio03](Exercicio03/README.md)
+- [Exercicio04](Exercicio04/README.md)
+- [Exercicio05](Exercicio05/README.md)
+- [Exercicio06](Exercicio06/README.md)
+- [Exercicio07](Exercicio07/README.md)
+- [Exercicio08](Exercicio08/README.md)
+- [Exercicio09](Exercicio09/README.md)
+- [Exercicio10](Exercicio10/README.md)
+- [Exercicio11](Exercicio11/README.md)
+- [Exercicio12](Exercicio12/README.md)
+
 ## Exercícios e rotas
 
 | Exercício | Objetivo | Rota |
