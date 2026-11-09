@@ -1,14 +1,7 @@
-# Exercício 09 — Links com Tag Helpers
+# Exercício 09
 
-Links gerados com asp-page e asp-route-cityName.
+Código-fonte em:
+- [CityLinks.cshtml](../CityManager/Pages/Exercicio09/CityLinks.cshtml)
+- [CityLinks.cshtml.cs](../CityManager/Pages/Exercicio09/CityLinks.cshtml.cs)
 
-## Arquivos C# / Razor
-
-- [Página Razor](../CityManager/Pages/CityManager/CityLinks.cshtml)
-- [PageModel C#](../CityManager/Pages/CityManager/CityLinks.cshtml.cs)
-
-## Teste no navegador
-
-`https://localhost:7145/CityManager/CityLinks`
-
-> Observação: os arquivos originais permanecem em Pages/CityManager para preservar as rotas e a compilação. 
+URL: `https://localhost:7145/Exercicio09/CityLinks`
