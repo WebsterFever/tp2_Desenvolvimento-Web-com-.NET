@@ -29,24 +29,22 @@ Cada pasta abaixo contém a descrição, os links para os arquivos `.cshtml` / `
 
 ## Páginas organizadas no Visual Studio
 
-Abra `CityManager/Pages`: há 12 pastas `Exercicio01` a `Exercicio12`, cada uma com `Index.cshtml` e `Index.cshtml.cs` (código Razor e C# independentes). Os arquivos antigos em `Pages/CityManager` foram preservados para manter as URLs anteriormente testadas.
+Cada pasta `CityManager/Pages/Exercicio01` até `Exercicio12` contém um par de arquivos Razor e C# com nome descritivo.
 
-| Exercício | Nova URL |
-|---|---|
-| 01 | `/Exercicio01/Index` |
-| 02 | `/Exercicio02/Index` |
-| 03 | `/Exercicio03/Index` |
-| 04 | `/Exercicio04/Index` |
-| 05 | `/Exercicio05/Index` |
-| 06 | `/Exercicio06/Index` |
-| 07 | `/Exercicio07/Index` |
-| 08 | `/Exercicio08/Index/Blumenau` |
-| 09 | `/Exercicio09/Index` |
-| 10 | `/Exercicio10/Index` |
-| 11 | `/Exercicio11/Index` |
-| 12 | `/Exercicio12/Index` |
-
-O exercício 1 usa a versão original do formulário com `[BindProperty]`; os exercícios 3 e 4 têm páginas próprias. Os exercícios 5, 6 e 12 também têm páginas próprias e compartilham o modelo `Models/Country.cs`.
+| Exercício | Arquivos | URL |
+|---|---|---|
+| 01 | `CreateCity.cshtml` e `CreateCity.cshtml.cs` | `/Exercicio01/CreateCity` |
+| 02 | `CreateCityHandler.cshtml` e `CreateCityHandler.cshtml.cs` | `/Exercicio02/CreateCityHandler` |
+| 03 | `CreateCityValidation.cshtml` e `CreateCityValidation.cshtml.cs` | `/Exercicio03/CreateCityValidation` |
+| 04 | `CreateCityModelState.cshtml` e `CreateCityModelState.cshtml.cs` | `/Exercicio04/CreateCityModelState` |
+| 05 | `CreateCountry.cshtml` e `CreateCountry.cshtml.cs` | `/Exercicio05/CreateCountry` |
+| 06 | `CreateCountryValidation.cshtml` e `CreateCountryValidation.cshtml.cs` | `/Exercicio06/CreateCountryValidation` |
+| 07 | `MultipleCountries.cshtml` e `MultipleCountries.cshtml.cs` | `/Exercicio07/MultipleCountries` |
+| 08 | `CityDetails.cshtml` e `CityDetails.cshtml.cs` | `/Exercicio08/CityDetails/Blumenau` |
+| 09 | `CityLinks.cshtml` e `CityLinks.cshtml.cs` | `/Exercicio09/CityLinks` |
+| 10 | `SaveNote.cshtml` e `SaveNote.cshtml.cs` | `/Exercicio10/SaveNote` |
+| 11 | `ReadNotes.cshtml` e `ReadNotes.cshtml.cs` | `/Exercicio11/ReadNotes` |
+| 12 | `CreateCountryCustomValidation.cshtml` e `CreateCountryCustomValidation.cshtml.cs` | `/Exercicio12/CreateCountryCustomValidation` |
 
 ## Exercícios e rotas
 
