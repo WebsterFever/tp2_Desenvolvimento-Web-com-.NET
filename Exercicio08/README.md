@@ -1,14 +1,7 @@
-# Exercício 08 — Parâmetro de rota
+# Exercício 08
 
-Exemplo: /CityManager/CityDetails/Blumenau
+Código-fonte em:
+- [CityDetails.cshtml](../CityManager/Pages/Exercicio08/CityDetails.cshtml)
+- [CityDetails.cshtml.cs](../CityManager/Pages/Exercicio08/CityDetails.cshtml.cs)
 
-## Arquivos C# / Razor
-
-- [Página Razor](../CityManager/Pages/CityManager/CityDetails.cshtml)
-- [PageModel C#](../CityManager/Pages/CityManager/CityDetails.cshtml.cs)
-
-## Teste no navegador
-
-`https://localhost:7145/CityManager/CityDetails/Blumenau`
-
-> Observação: os arquivos originais permanecem em Pages/CityManager para preservar as rotas e a compilação. 
+URL: `https://localhost:7145/Exercicio08/CityDetails/Blumenau`
