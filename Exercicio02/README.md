@@ -1,14 +1,7 @@
-# Exercício 02 — Handler OnPost com parâmetro
+# Exercício 02
 
-Usa OnPost(string cityName).
+Código-fonte em:
+- [CreateCityHandler.cshtml](../CityManager/Pages/Exercicio02/CreateCityHandler.cshtml)
+- [CreateCityHandler.cshtml.cs](../CityManager/Pages/Exercicio02/CreateCityHandler.cshtml.cs)
 
-## Arquivos C# / Razor
-
-- [Página Razor](../CityManager/Pages/CityManager/CreateCityHandler.cshtml)
-- [PageModel C#](../CityManager/Pages/CityManager/CreateCityHandler.cshtml.cs)
-
-## Teste no navegador
-
-`https://localhost:7145/CityManager/CreateCityHandler`
-
-> Observação: os arquivos originais permanecem em Pages/CityManager para preservar as rotas e a compilação. 
+URL: `https://localhost:7145/Exercicio02/CreateCityHandler`
