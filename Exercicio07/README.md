@@ -1,14 +1,7 @@
-# Exercício 07 — Cadastro de vários países
+# Exercício 07
 
-Formulário para cinco países usando lista e laço for.
+Código-fonte em:
+- [MultipleCountries.cshtml](../CityManager/Pages/Exercicio07/MultipleCountries.cshtml)
+- [MultipleCountries.cshtml.cs](../CityManager/Pages/Exercicio07/MultipleCountries.cshtml.cs)
 
-## Arquivos C# / Razor
-
-- [Página Razor](../CityManager/Pages/CityManager/MultipleCountries.cshtml)
-- [PageModel C#](../CityManager/Pages/CityManager/MultipleCountries.cshtml.cs)
-
-## Teste no navegador
-
-`https://localhost:7145/CityManager/MultipleCountries`
-
-> Observação: os arquivos originais permanecem em Pages/CityManager para preservar as rotas e a compilação. 
+URL: `https://localhost:7145/Exercicio07/MultipleCountries`
