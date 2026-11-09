@@ -46,20 +46,6 @@ Cada pasta `CityManager/Pages/Exercicio01` até `Exercicio12` contém um par de 
 | 11 | `ReadNotes.cshtml` e `ReadNotes.cshtml.cs` | `/Exercicio11/ReadNotes` |
 | 12 | `CreateCountryCustomValidation.cshtml` e `CreateCountryCustomValidation.cshtml.cs` | `/Exercicio12/CreateCountryCustomValidation` |
 
-## Exercícios e rotas
-
-| Exercício | Objetivo | Rota |
-|---|---|---|
-| 1 | Formulário com BindProperty (versão original na branch master) | /CityManager/CreateCity |
-| 2 | Parâmetro no OnPost sem BindProperty | /CityManager/CreateCityHandler |
-| 3 e 4 | Data Annotations, ModelState e validação no cliente | /CityManager/CreateCity |
-| 5, 6 e 12 | Country, código ISO e validação personalizada | /CityManager/CreateCountry |
-| 7 | Enviar cinco países em um formulário | /CityManager/MultipleCountries |
-| 8 | Rota com nome da cidade | /CityManager/CityDetails/Rio |
-| 9 | Links dinâmicos com Tag Helpers | /CityManager/CityLinks |
-| 10 | Escrever anotação em arquivo | /CityManager/SaveNote |
-| 11 | Listar e ler anotações | /CityManager/ReadNotes |
-
 ## Testes manuais
 - Cidade: vazio, 2 letras e 3+ letras.
 - País: Brasil/BR, Brasil/B, Brasil/BRA, Brasil/vazio e Brasil/US.
