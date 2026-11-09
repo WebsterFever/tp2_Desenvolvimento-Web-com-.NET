@@ -26,6 +26,28 @@ Cada pasta abaixo contém a descrição, os links para os arquivos `.cshtml` / `
 - [Exercicio11](Exercicio11/README.md)
 - [Exercicio12](Exercicio12/README.md)
 
+
+## Páginas organizadas no Visual Studio
+
+Abra `CityManager/Pages`: há 12 pastas `Exercicio01` a `Exercicio12`, cada uma com `Index.cshtml` e `Index.cshtml.cs` (código Razor e C# independentes). Os arquivos antigos em `Pages/CityManager` foram preservados para manter as URLs anteriormente testadas.
+
+| Exercício | Nova URL |
+|---|---|
+| 01 | `/Exercicio01/Index` |
+| 02 | `/Exercicio02/Index` |
+| 03 | `/Exercicio03/Index` |
+| 04 | `/Exercicio04/Index` |
+| 05 | `/Exercicio05/Index` |
+| 06 | `/Exercicio06/Index` |
+| 07 | `/Exercicio07/Index` |
+| 08 | `/Exercicio08/Index/Blumenau` |
+| 09 | `/Exercicio09/Index` |
+| 10 | `/Exercicio10/Index` |
+| 11 | `/Exercicio11/Index` |
+| 12 | `/Exercicio12/Index` |
+
+O exercício 1 usa a versão original do formulário com `[BindProperty]`; os exercícios 3 e 4 têm páginas próprias. Os exercícios 5, 6 e 12 também têm páginas próprias e compartilham o modelo `Models/Country.cs`.
+
 ## Exercícios e rotas
 
 | Exercício | Objetivo | Rota |
