@@ -1,14 +1,7 @@
-# Exercício 10 — Escrita em arquivo TXT
+# Exercício 10
 
-Salva anotações em wwwroot/files.
+Código-fonte em:
+- [SaveNote.cshtml](../CityManager/Pages/Exercicio10/SaveNote.cshtml)
+- [SaveNote.cshtml.cs](../CityManager/Pages/Exercicio10/SaveNote.cshtml.cs)
 
-## Arquivos C# / Razor
-
-- [Página Razor](../CityManager/Pages/CityManager/SaveNote.cshtml)
-- [PageModel C#](../CityManager/Pages/CityManager/SaveNote.cshtml.cs)
-
-## Teste no navegador
-
-`https://localhost:7145/CityManager/SaveNote`
-
-> Observação: os arquivos originais permanecem em Pages/CityManager para preservar as rotas e a compilação. 
+URL: `https://localhost:7145/Exercicio10/SaveNote`
