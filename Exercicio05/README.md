@@ -1,15 +1,7 @@
-# Exercício 05 — Cadastro de país
+# Exercício 05
 
-Formulário com nome do país e código ISO.
+Código-fonte em:
+- [CreateCountry.cshtml](../CityManager/Pages/Exercicio05/CreateCountry.cshtml)
+- [CreateCountry.cshtml.cs](../CityManager/Pages/Exercicio05/CreateCountry.cshtml.cs)
 
-## Arquivos C# / Razor
-
-- [Página Razor](../CityManager/Pages/CityManager/CreateCountry.cshtml)
-- [PageModel C#](../CityManager/Pages/CityManager/CreateCountry.cshtml.cs)
-- [Modelo Country](../CityManager/Models/Country.cs)
-
-## Teste no navegador
-
-`https://localhost:7145/CityManager/CreateCountry`
-
-> Observação: os arquivos originais permanecem em Pages/CityManager para preservar as rotas e a compilação. 
+URL: `https://localhost:7145/Exercicio05/CreateCountry`
