@@ -1,14 +1,7 @@
-# Exercício 04 — Validação de cidade
+# Exercício 04
 
-Usa [Required], [MinLength(3)] e ModelState.IsValid.
+Código-fonte em:
+- [CreateCityModelState.cshtml](../CityManager/Pages/Exercicio04/CreateCityModelState.cshtml)
+- [CreateCityModelState.cshtml.cs](../CityManager/Pages/Exercicio04/CreateCityModelState.cshtml.cs)
 
-## Arquivos C# / Razor
-
-- [Página Razor](../CityManager/Pages/CityManager/CreateCity.cshtml)
-- [PageModel C#](../CityManager/Pages/CityManager/CreateCity.cshtml.cs)
-
-## Teste no navegador
-
-`https://localhost:7145/CityManager/CreateCity`
-
-> Observação: os arquivos originais permanecem em Pages/CityManager para preservar as rotas e a compilação. 
+URL: `https://localhost:7145/Exercicio04/CreateCityModelState`
