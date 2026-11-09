@@ -1,20 +1,21 @@
-
+using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-
-namespace CityManager
+namespace CityManager;
+public class CreateCityModel : PageModel
 {
-    public class CreateCityModel : PageModel
+    [BindProperty]
+    public InputModel Input { get; set; } = new();
+    public string? Message { get; private set; }
+    public class InputModel
     {
-        [BindProperty]
-        public string CityName { get; set; } = string.Empty;
-
-        public void OnGet()
-        {
-        }
-
-        public void OnPost()
-        {
-        }
+        [Required(ErrorMessage = "Informe o nome da cidade.")]
+        [MinLength(3, ErrorMessage = "Use pelo menos 3 caracteres.")]
+        public string CityName { get; set; } = "";
+    }
+    public void OnPost()
+    {
+        if (!ModelState.IsValid) return;
+        Message = $"Cidade cadastrada: {Input.CityName}";
     }
 }
