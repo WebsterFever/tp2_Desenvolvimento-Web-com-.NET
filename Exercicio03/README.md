@@ -1,14 +1,7 @@
-# Exercício 03 — Model binding com InputModel
+# Exercício 03
 
-Usa [BindProperty] e InputModel.
+Código-fonte em:
+- [CreateCityValidation.cshtml](../CityManager/Pages/Exercicio03/CreateCityValidation.cshtml)
+- [CreateCityValidation.cshtml.cs](../CityManager/Pages/Exercicio03/CreateCityValidation.cshtml.cs)
 
-## Arquivos C# / Razor
-
-- [Página Razor](../CityManager/Pages/CityManager/CreateCity.cshtml)
-- [PageModel C#](../CityManager/Pages/CityManager/CreateCity.cshtml.cs)
-
-## Teste no navegador
-
-`https://localhost:7145/CityManager/CreateCity`
-
-> Observação: os arquivos originais permanecem em Pages/CityManager para preservar as rotas e a compilação. 
+URL: `https://localhost:7145/Exercicio03/CreateCityValidation`
