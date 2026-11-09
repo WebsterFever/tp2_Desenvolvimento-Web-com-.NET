@@ -1,15 +1,7 @@
-# Exercício 12 — Validação personalizada ModelState
+# Exercício 12
 
-Confere se o país e o código ISO começam com a mesma letra.
+Código-fonte em:
+- [CreateCountryCustomValidation.cshtml](../CityManager/Pages/Exercicio12/CreateCountryCustomValidation.cshtml)
+- [CreateCountryCustomValidation.cshtml.cs](../CityManager/Pages/Exercicio12/CreateCountryCustomValidation.cshtml.cs)
 
-## Arquivos C# / Razor
-
-- [Página Razor](../CityManager/Pages/CityManager/CreateCountry.cshtml)
-- [PageModel C#](../CityManager/Pages/CityManager/CreateCountry.cshtml.cs)
-- [Modelo Country](../CityManager/Models/Country.cs)
-
-## Teste no navegador
-
-`https://localhost:7145/CityManager/CreateCountry`
-
-> Observação: os arquivos originais permanecem em Pages/CityManager para preservar as rotas e a compilação. 
+URL: `https://localhost:7145/Exercicio12/CreateCountryCustomValidation`
